@@ -21,5 +21,8 @@ class automobile:
 
 class truck(automobile):
     def __init__(self, year, make, model, doors, roof):
-        super().__init__(any, any, any, any ->)
+        super().__init__(year, make, model, doors, roof)
         
+
+class boat(automobile):
+    def __init__(self):
